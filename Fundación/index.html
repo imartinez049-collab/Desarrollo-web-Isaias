@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--1. Los Metadatos-->
+ <meta charset="UTF-8">
+  <meta name="description" content="Fundacion Apoyo Patos- Conservacion de fauna de patos">
+  <meta name="keywords" content="Fundación Apoyo Patos Protegemos todas las especies de patos">
+  <meta name="author" content="Isaias Martinez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--2. Titulo de la pagina aparece en el buscador-->
+  <title>Apoyo Patos</title>
+<!--3. Enlace al archivo CSS-->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<!--Hasta aca va el head-->
+<body>
+<!--navbar-->
+    <header class="header">
+        <div class="container header-inner">
+        <a class="logo" href="#">
+    <img src="IMG/Cuidado Patos.jpg" alt="Logo Fundación Pollo ok." height="80" />
+
+        </a>
+        
+    <nav class="Inicio">
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#QuienesSomos">Quienes Somos</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+            <li><a class="btn-dona" href="#Donar">Donar</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+<main>
+<!--Hero con video-->
+<section class="hero video-hero">
+      <video class="hero-video" id="heroVideo" autoplay loop playsinline>
+<!--Aqui colocamos el video-->
+        <source src="IMG/Cuidado Patos Video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <div class="hero-text">
+          <h1>Conservacion de fauna de patos</h1>
+          <p>Apoyemos la vida y conservacion de los patos en México</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#donar">Dona</a>
+            <a class="btn outline" href="#voluntariado">Sé parte</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion de suscripcion-->
+    <section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te pierdas lo último!</h2>
+          <p>Suscríbete para recibir noticias e historias.</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+</section>
+    <!--Seccion de contactos-->
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Sobre la fundación</h4>
+        <p>Promovemos el respeto por los patos</p>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <address>
+          Hacienda de la Llave Dpto. 302<br/>Cuautitlan Izcalli, EdoMex<br/>
+          <a href="mailto:yurintelligence@outlook.com">isaias.martinez049@ebc.edu.mx</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© <span id="anio"></span> Fundación Apoyo Patos</div>
+    </div>
+  </footer>
+
+</body>
+</html>
